@@ -10,7 +10,9 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
  */
 public class ReadWriteLockDemo {
 
+    //普通的重入锁
     public static final Lock  lock = new ReentrantLock();
+    
     public static final ReentrantReadWriteLock readWriterLock = new ReentrantReadWriteLock(true);
     public static final Lock readLock = readWriterLock.readLock();
     public static final Lock writerLock = readWriterLock.writeLock();
