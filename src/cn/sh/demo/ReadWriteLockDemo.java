@@ -6,6 +6,7 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 /**
  * Created by sh on 2017/7/3.
+ * 读写分离锁
  */
 public class ReadWriteLockDemo {
 

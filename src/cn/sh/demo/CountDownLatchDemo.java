@@ -7,6 +7,7 @@ import java.util.concurrent.Executors;
 
 /**
  * Created by sh on 2017/7/3.
+ * 倒计数器
  */
 public class CountDownLatchDemo implements Runnable {
 
